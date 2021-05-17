@@ -1,0 +1,104 @@
+*{
+font-size: 16px;
+font-family:'Karla', sans-serif, monospace;
+box-sizing: border-box;
+line-height: 1.6;
+
+}
+
+body{
+    background-color:hsl(204, 43%, 93%);
+}
+
+.container {
+    margin-top: 2rem;
+    margin: auto;
+    width: 55%;
+    box-shadow: .1rem .1rem .9rem .2rem  rgba(150, 148, 148, 0.25);
+}
+
+.top {
+    padding: 2rem;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.title-2 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.title-text {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal > * {
+    flex: 1 1 10em;
+}
+
+.title-3 {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.price {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 0.5em;
+    margin-top: rem;
+    margin-bottom: 0.5em;
+}
+
+.blue-1{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    
+    padding: 2rem;
+}
+
+.blue-2{
+    background-color: hsl(179, 63%, 47%);
+    border-bottom-right-radius: 10px;
+    padding: 2rem;
+}
+
+.text {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40%;
+    
+}
+
+.access {
+    color: white;
+    font-size: 14px;
+}
+
+.button {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    border-radius: 7px;
+    padding: 1em;
+    outline: 0;
+    border: none;
+}
